@@ -1,3 +1,33 @@
 body {
     background-color:lightskyblue;
 }
+
+#homefacts {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: limegreen; /* Background color applied to the entire container */
+    color: aliceblue;
+}
+
+#homefacts h3 {
+    background-color: limegreen; /*bg color for h3 elements */
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#Moose-Para{
+    display: flex;
+    justify-content: left;
+    border: 10px;
+
+}
+
+#Moose-Zim {
+    height: 200px;
+    border: 10px;
+}
